@@ -99,7 +99,7 @@
   (fp_line (start -3.9972 3.208599) (end 1.9972 3.208599) (layer "F.Fab") (width 0.1) (tstamp 8b8f806d-ed27-4d17-8adf-de49d4078f03))
   (fp_line (start 1.9972 3.208599) (end 1.9972 -2.1) (layer "F.Fab") (width 0.1) (tstamp f2e2f8e8-507e-4164-a0ea-de181948557a))
   (fp_circle (center 0 1.905) (end 0.381 1.905) (layer "F.Fab") (width 0.1) (fill none) (tstamp 91f0a5c3-8aaa-40df-8c06-56739a585214))
+  (pad "" np_thru_hole circle (at 1.5 -1.7) (size 1 1) (drill 1.1938) (layers F&B.Cu *.Mask) (tstamp 8d1a14f9-8404-4462-8f1c-bfbe0c5a333b))
   (pad "1" thru_hole circle (at 0.000001 0) (size 1.3208 1.3208) (drill 0.8128) (layers *.Cu *.Mask) (tstamp 98ce763f-f2a6-426a-9c95-73032cc2be81))
   (pad "2" thru_hole circle (at -2.000001 0) (size 1.3208 1.3208) (drill 0.8128) (layers *.Cu *.Mask) (tstamp 1ba79d9f-68c3-4cf0-9626-629a11f24f5c))
-  (pad "3" thru_hole circle (at 1.5 -1.7) (size 1.7018 1.7018) (drill 1.1938) (layers *.Cu *.Mask) (tstamp 3ed709fa-bd1c-4ff4-b8f0-e72cc9448899))
 )
