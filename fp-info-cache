@@ -1,4 +1,4 @@
-20912545595831410
+20914227177337784
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -52696,9 +52696,16 @@ TSSOP SO
 21
 21
 Footprints
-B02B-PASK-1LFSN
+BSO220N03MD
+Infineon  PG-DSO, 8 Pin (https://www.infineon.com/cms/en/product/packages/PG-DSO/PG-DSO-8-27), generated with kicad-footprint-generator ipc_gullwing_generator.py
+Infineon PG-DSO SO
+0
+8
+8
+Footprints
+CONN_B02B-PASKLFSN_JST
 
-
+B02B-PASKLFSN 
 0
 2
 2
