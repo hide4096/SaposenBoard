@@ -2149,7 +2149,7 @@
     (property "Sheetname" "")
     (path "/cc9c77db-c212-4965-8fc8-c0fd91942881")
     (attr through_hole)
-    (fp_text reference "C6" (at 1.25 -3.75 90 unlocked) (layer "F.SilkS")
+    (fp_text reference "C6" (at -1.5 2.25 unlocked) (layer "F.SilkS")
       (effects (font (size 0.8 0.8) (thickness 0.15)))
       (tstamp f744e36b-d34e-4f40-bdbe-4abcc181eb9e)
     )
