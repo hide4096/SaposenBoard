@@ -58,7 +58,20 @@
   (pad "22" smd rect (at -0.2 -1.5785) (size 0.2 0.907) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp 394ee05a-f63c-4046-8f7d-aa3eeeff066d))
   (pad "23" smd rect (at -0.6 -1.5785) (size 0.2 0.907) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp 73846744-8199-4c16-b04a-3244ef0b5a6a))
   (pad "24" smd rect (at -1 -1.651) (size 0.2 0.762) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp 3c44e781-1190-4e9e-8bbc-c825cbc80c09))
-  (pad "25" smd rect (at 0 0 90) (size 1.59 1.75) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp 09240223-5739-461a-b628-1fdf9b36eb2f))
+  (zone (net 0) (net_name "") (layers *.Cu) (tstamp 672fb41a-ccd8-4835-9a61-7b1cd413310f) (hatch edge 0.508)
+    (connect_pads (clearance 0))
+    (min_thickness 0.254)
+    (keepout (tracks allowed) (vias not_allowed) (pads allowed) (copperpour not_allowed) (footprints allowed))
+    (fill (thermal_gap 0.508) (thermal_bridge_width 0.508))
+    (polygon
+      (pts
+        (xy 1.5 -1.5)
+        (xy -1.5 -1.5)
+        (xy -1.5 1.5)
+        (xy 1.5 1.5)
+      )
+    )
+  )
   (model "C:\\Users\\neko2\\OneDrive\\reRo\\Part\\SamacSys_Parts.3dshapes\\ICM-20648.stp"
     (offset (xyz 0 0 0.1899999948))
     (scale (xyz 1 1 1))

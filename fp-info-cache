@@ -1,4 +1,4 @@
-20914230225321227
+20915917597847997
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -52724,6 +52724,13 @@ MODULE_NUCLEO-F303K8
 30
 30
 Footprints
+MountingHole_3.2mm_M3
+Mounting Hole 3.2mm, no annular, M3
+mounting hole 3.2mm no annular m3
+0
+0
+0
+Footprints
 PKM13EPYH4000-A0
 
 
@@ -52735,8 +52742,8 @@ QFN40P300X300X95-25N-D
 QFN-24 - 3x3x0.9_1
 Integrated Circuit
 0
-25
-25
+24
+24
 Footprints
 TVDT18-050C
 
