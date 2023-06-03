@@ -1,4 +1,4 @@
-20915920444798999
+20925909638835776
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -52696,6 +52696,13 @@ TSSOP SO
 21
 21
 Footprints
+Axis
+
+
+0
+0
+0
+Footprints
 BSO220N03MD
 Infineon  PG-DSO, 8 Pin (https://www.infineon.com/cms/en/product/packages/PG-DSO/PG-DSO-8-27), generated with kicad-footprint-generator ipc_gullwing_generator.py
 Infineon PG-DSO SO
@@ -61221,6 +61228,41 @@ Mounting 4.5mm 9774100982
 0
 8
 1
+My
+Axis
+
+
+0
+0
+0
+My
+Motor
+
+
+0
+2
+2
+My
+TVAF06-A020B-R
+
+
+0
+2
+2
+My
+minipen
+
+
+0
+0
+0
+My
+penpen
+
+
+0
+0
+0
 NetTie
 NetTie-2_SMD_Pad0.5mm
 Net tie, 2 pin, 0.5mm square SMD pads
