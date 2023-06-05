@@ -1,4 +1,3 @@
 (fp_lib_table
   (lib (name "Footprints")(type "KiCad")(uri "${KIPRJMOD}/Footprints/Footprints.pretty")(options "")(descr ""))
-  (lib (name "My")(type "KiCad")(uri "/home/hide/gdrive/reRo/Part/HandMade/My.pretty")(options "")(descr ""))
 )
