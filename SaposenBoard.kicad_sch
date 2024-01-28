@@ -3653,7 +3653,7 @@
   (symbol (lib_id "power:+BATT") (at 166.37 110.49 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 055c508c-3b1d-418a-a809-398b6f637be4)
-    (property "Reference" "#PWR032" (at 166.37 114.3 0)
+    (property "Reference" "#PWR033" (at 166.37 114.3 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+BATT" (at 166.37 105.41 0)
@@ -3669,7 +3669,7 @@
     (instances
       (project "SaposenBoard"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-          (reference "#PWR032") (unit 1)
+          (reference "#PWR033") (unit 1)
         )
       )
     )
@@ -3710,7 +3710,7 @@
   (symbol (lib_id "Symbols:NUCLEO-F303K8") (at 193.04 50.8 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 0bb6ad0b-76dd-4100-af88-32e8793c64cc)
-    (property "Reference" "U4" (at 185.42 34.29 0)
+    (property "Reference" "U3" (at 185.42 34.29 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "NUCLEO-F303K8" (at 193.04 77.47 0)
@@ -3755,7 +3755,7 @@
     (instances
       (project "SaposenBoard"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-          (reference "U4") (unit 1)
+          (reference "U3") (unit 1)
         )
       )
     )
@@ -3997,7 +3997,7 @@
   (symbol (lib_id "Device:R") (at 246.38 66.04 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 1a11efa6-b2bb-49c8-afc9-ca8a819e0a1c)
-    (property "Reference" "R25" (at 243.84 62.23 0)
+    (property "Reference" "R24" (at 243.84 62.23 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "1k" (at 246.38 66.04 90)
@@ -4014,7 +4014,7 @@
     (instances
       (project "SaposenBoard"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-          (reference "R25") (unit 1)
+          (reference "R24") (unit 1)
         )
       )
     )
@@ -4049,7 +4049,7 @@
   (symbol (lib_id "Device:R") (at 123.19 40.64 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 2381a739-07ea-4fdf-af68-eae5121ae83c)
-    (property "Reference" "R17" (at 118.11 38.1 0)
+    (property "Reference" "R16" (at 118.11 38.1 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "10k" (at 123.19 40.64 90)
@@ -4066,7 +4066,7 @@
     (instances
       (project "SaposenBoard"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-          (reference "R17") (unit 1)
+          (reference "R16") (unit 1)
         )
       )
     )
@@ -4101,7 +4101,7 @@
   (symbol (lib_name "GND_1") (lib_id "power:GND") (at 166.37 118.11 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 2490f256-c87e-4a39-b7d9-20bfb1e78b0a)
-    (property "Reference" "#PWR033" (at 166.37 124.46 0)
+    (property "Reference" "#PWR034" (at 166.37 124.46 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 166.37 123.19 0)
@@ -4117,7 +4117,7 @@
     (instances
       (project "SaposenBoard"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-          (reference "#PWR033") (unit 1)
+          (reference "#PWR034") (unit 1)
         )
       )
     )
@@ -4126,7 +4126,7 @@
   (symbol (lib_id "power:GND") (at 222.25 43.18 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 25122f3c-254b-4b1c-b1a9-334efb26f88d)
-    (property "Reference" "#PWR046" (at 222.25 49.53 0)
+    (property "Reference" "#PWR038" (at 222.25 49.53 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 222.25 48.26 0)
@@ -4142,7 +4142,7 @@
     (instances
       (project "SaposenBoard"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-          (reference "#PWR046") (unit 1)
+          (reference "#PWR038") (unit 1)
         )
       )
     )
@@ -4151,7 +4151,7 @@
   (symbol (lib_id "Device:C") (at 189.23 147.32 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 3094b219-0d41-41fa-8985-6eb66d4a49cd)
-    (property "Reference" "C15" (at 186.69 144.78 0)
+    (property "Reference" "C14" (at 186.69 144.78 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "0.1u" (at 191.77 149.86 0)
@@ -4168,7 +4168,7 @@
     (instances
       (project "SaposenBoard"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-          (reference "C15") (unit 1)
+          (reference "C14") (unit 1)
         )
       )
     )
@@ -4254,7 +4254,7 @@
   (symbol (lib_id "Device:R") (at 57.15 62.23 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 3ae96a37-4375-4d02-8eb1-99d4fcff0d23)
-    (property "Reference" "R12" (at 52.07 60.96 0)
+    (property "Reference" "R10" (at 52.07 60.96 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "470" (at 57.15 62.23 90)
@@ -4271,7 +4271,7 @@
     (instances
       (project "SaposenBoard"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-          (reference "R12") (unit 1)
+          (reference "R10") (unit 1)
         )
       )
     )
@@ -4280,7 +4280,7 @@
   (symbol (lib_id "Device:R") (at 123.19 77.47 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 3ca7d05c-052e-4616-b332-0e1a9dc586bb)
-    (property "Reference" "R18" (at 118.11 74.93 0)
+    (property "Reference" "R17" (at 118.11 74.93 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "10k" (at 123.19 77.47 90)
@@ -4297,7 +4297,7 @@
     (instances
       (project "SaposenBoard"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-          (reference "R18") (unit 1)
+          (reference "R17") (unit 1)
         )
       )
     )
@@ -4306,7 +4306,7 @@
   (symbol (lib_id "Device:R") (at 195.58 147.32 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 4018fa16-7456-40d4-8ca2-67bc1a311501)
-    (property "Reference" "R23" (at 193.04 143.51 0)
+    (property "Reference" "R22" (at 193.04 143.51 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "10k" (at 195.58 147.32 90)
@@ -4323,7 +4323,7 @@
     (instances
       (project "SaposenBoard"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-          (reference "R23") (unit 1)
+          (reference "R22") (unit 1)
         )
       )
     )
@@ -4364,7 +4364,7 @@
   (symbol (lib_id "power:+BATT") (at 67.31 54.61 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 43e2dffb-e6c1-4f76-a17a-b3c1f2ea584d)
-    (property "Reference" "#PWR014" (at 67.31 58.42 0)
+    (property "Reference" "#PWR016" (at 67.31 58.42 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+BATT" (at 67.31 49.53 0)
@@ -4380,7 +4380,7 @@
     (instances
       (project "SaposenBoard"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-          (reference "#PWR014") (unit 1)
+          (reference "#PWR016") (unit 1)
         )
       )
     )
@@ -4448,7 +4448,7 @@
   (symbol (lib_id "power:+5V") (at 208.28 30.48 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 4801a7a6-fb67-425b-b798-bfa8a123fa3d)
-    (property "Reference" "#PWR042" (at 208.28 34.29 0)
+    (property "Reference" "#PWR037" (at 208.28 34.29 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+5V" (at 208.28 25.4 0)
@@ -4464,7 +4464,7 @@
     (instances
       (project "SaposenBoard"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-          (reference "#PWR042") (unit 1)
+          (reference "#PWR037") (unit 1)
         )
       )
     )
@@ -4501,7 +4501,7 @@
   (symbol (lib_id "Symbols:MPU-6500") (at 227.33 133.35 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 49e3c54e-d364-43d7-a9e0-2b7ee04f4c42)
-    (property "Reference" "U3" (at 217.17 115.57 0)
+    (property "Reference" "U4" (at 217.17 115.57 0)
       (effects (font (size 1.524 1.524)))
     )
     (property "Value" "MPU-6500" (at 227.33 152.4 0)
@@ -4540,7 +4540,7 @@
     (instances
       (project "SaposenBoard"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-          (reference "U3") (unit 1)
+          (reference "U4") (unit 1)
         )
       )
     )
@@ -4809,7 +4809,7 @@
   (symbol (lib_name "GND_1") (lib_id "power:GND") (at 63.5 187.96 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 644e77ec-ccd2-4f74-965e-06d08b4121ab)
-    (property "Reference" "#PWR017" (at 63.5 194.31 0)
+    (property "Reference" "#PWR015" (at 63.5 194.31 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 63.5 193.04 0)
@@ -4825,7 +4825,7 @@
     (instances
       (project "SaposenBoard"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-          (reference "#PWR017") (unit 1)
+          (reference "#PWR015") (unit 1)
         )
       )
     )
@@ -4834,7 +4834,7 @@
   (symbol (lib_id "Device:R") (at 246.38 48.26 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 68345329-f788-408e-9d8a-7c74eac07bb3)
-    (property "Reference" "R24" (at 243.84 44.45 0)
+    (property "Reference" "R23" (at 243.84 44.45 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "1.8k" (at 246.38 48.26 90)
@@ -4851,7 +4851,7 @@
     (instances
       (project "SaposenBoard"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-          (reference "R24") (unit 1)
+          (reference "R23") (unit 1)
         )
       )
     )
@@ -5014,7 +5014,7 @@
   (symbol (lib_id "Device:R") (at 262.89 114.3 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 7b218288-3377-4b12-a7f8-07ed9944c476)
-    (property "Reference" "R28" (at 259.08 110.49 0)
+    (property "Reference" "R27" (at 259.08 110.49 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "4.7k" (at 262.89 114.3 90)
@@ -5031,7 +5031,7 @@
     (instances
       (project "SaposenBoard"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-          (reference "R28") (unit 1)
+          (reference "R27") (unit 1)
         )
       )
     )
@@ -5040,7 +5040,7 @@
   (symbol (lib_id "power:GND") (at 189.23 153.67 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 7cecc9fc-5fdb-494e-885a-0efeb13c203a)
-    (property "Reference" "#PWR037" (at 189.23 160.02 0)
+    (property "Reference" "#PWR036" (at 189.23 160.02 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 189.23 158.75 0)
@@ -5056,7 +5056,7 @@
     (instances
       (project "SaposenBoard"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-          (reference "#PWR037") (unit 1)
+          (reference "#PWR036") (unit 1)
         )
       )
     )
@@ -5115,7 +5115,7 @@
   (symbol (lib_id "power:+3V3") (at 222.25 68.58 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 8618fa90-2505-4bc7-91f6-d64a683b97d8)
-    (property "Reference" "#PWR047" (at 222.25 72.39 0)
+    (property "Reference" "#PWR039" (at 222.25 72.39 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+3V3" (at 222.25 63.5 0)
@@ -5131,7 +5131,7 @@
     (instances
       (project "SaposenBoard"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-          (reference "#PWR047") (unit 1)
+          (reference "#PWR039") (unit 1)
         )
       )
     )
@@ -5301,7 +5301,7 @@
   (symbol (lib_id "Device:R") (at 139.7 63.5 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 925dfed5-0ad6-47bc-9cd8-922eb046a7f6)
-    (property "Reference" "R22" (at 140.97 60.96 0)
+    (property "Reference" "R21" (at 140.97 60.96 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "10k" (at 139.7 63.5 90)
@@ -5318,7 +5318,7 @@
     (instances
       (project "SaposenBoard"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-          (reference "R22") (unit 1)
+          (reference "R21") (unit 1)
         )
       )
     )
@@ -5327,7 +5327,7 @@
   (symbol (lib_id "Device:R") (at 60.96 163.83 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 93d2c761-5d01-4134-9677-b1e3924b8ba8)
-    (property "Reference" "R11" (at 57.15 160.02 0)
+    (property "Reference" "R12" (at 57.15 160.02 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "10k" (at 60.96 163.83 90)
@@ -5344,7 +5344,7 @@
     (instances
       (project "SaposenBoard"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-          (reference "R11") (unit 1)
+          (reference "R12") (unit 1)
         )
       )
     )
@@ -5353,7 +5353,7 @@
   (symbol (lib_id "power:GND") (at 67.31 86.36 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 9550a048-1dbf-466d-9000-664c91db4ca4)
-    (property "Reference" "#PWR015" (at 67.31 92.71 0)
+    (property "Reference" "#PWR017" (at 67.31 92.71 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 67.31 91.44 0)
@@ -5369,7 +5369,7 @@
     (instances
       (project "SaposenBoard"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-          (reference "#PWR015") (unit 1)
+          (reference "#PWR017") (unit 1)
         )
       )
     )
@@ -5429,7 +5429,7 @@
   (symbol (lib_id "Device:R") (at 257.81 114.3 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid a31eb37b-ab2f-4bf4-9c53-332ad3300512)
-    (property "Reference" "R27" (at 254 110.49 0)
+    (property "Reference" "R26" (at 254 110.49 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "4.7k" (at 257.81 114.3 90)
@@ -5446,7 +5446,7 @@
     (instances
       (project "SaposenBoard"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-          (reference "R27") (unit 1)
+          (reference "R26") (unit 1)
         )
       )
     )
@@ -5482,7 +5482,7 @@
   (symbol (lib_id "Device:R") (at 137.16 41.91 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid a525c727-3d64-42c4-8b13-41535b075384)
-    (property "Reference" "R19" (at 138.43 39.37 0)
+    (property "Reference" "R18" (at 138.43 39.37 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "10k" (at 137.16 41.91 90)
@@ -5499,7 +5499,7 @@
     (instances
       (project "SaposenBoard"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-          (reference "R19") (unit 1)
+          (reference "R18") (unit 1)
         )
       )
     )
@@ -5508,7 +5508,7 @@
   (symbol (lib_id "Device:C_Polarized") (at 255.27 55.88 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid a5def251-c953-4db6-aa50-c0c93449234a)
-    (property "Reference" "C14" (at 255.27 53.34 0)
+    (property "Reference" "C16" (at 255.27 53.34 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "100u" (at 260.35 58.42 0)
@@ -5525,7 +5525,7 @@
     (instances
       (project "SaposenBoard"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-          (reference "C14") (unit 1)
+          (reference "C16") (unit 1)
         )
       )
     )
@@ -5560,7 +5560,7 @@
   (symbol (lib_id "Device:R") (at 139.7 26.67 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid a9dc7ef2-165a-4a78-a72a-a4482d0052cf)
-    (property "Reference" "R21" (at 140.97 24.13 0)
+    (property "Reference" "R20" (at 140.97 24.13 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "10k" (at 139.7 26.67 90)
@@ -5577,7 +5577,7 @@
     (instances
       (project "SaposenBoard"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-          (reference "R21") (unit 1)
+          (reference "R20") (unit 1)
         )
       )
     )
@@ -5636,7 +5636,7 @@
   (symbol (lib_id "Device:R") (at 119.38 26.67 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid ad8eee63-e669-4d5e-b546-effd82f6c611)
-    (property "Reference" "R15" (at 114.3 24.13 0)
+    (property "Reference" "R14" (at 114.3 24.13 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "10k" (at 119.38 26.67 90)
@@ -5653,7 +5653,7 @@
     (instances
       (project "SaposenBoard"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-          (reference "R15") (unit 1)
+          (reference "R14") (unit 1)
         )
       )
     )
@@ -5662,7 +5662,7 @@
   (symbol (lib_id "Device:C") (at 201.93 147.32 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid adc434f9-4632-42dc-8c93-8fee6bb415f8)
-    (property "Reference" "C16" (at 199.39 144.78 0)
+    (property "Reference" "C15" (at 199.39 144.78 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "0.1u" (at 204.47 149.86 0)
@@ -5679,7 +5679,7 @@
     (instances
       (project "SaposenBoard"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-          (reference "C16") (unit 1)
+          (reference "C15") (unit 1)
         )
       )
     )
@@ -5913,7 +5913,7 @@
   (symbol (lib_id "power:GND") (at 162.56 46.99 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid c904aa85-1d29-495e-8634-ba6672ddf72a)
-    (property "Reference" "#PWR038" (at 162.56 53.34 0)
+    (property "Reference" "#PWR032" (at 162.56 53.34 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 162.56 52.07 0)
@@ -5929,7 +5929,7 @@
     (instances
       (project "SaposenBoard"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-          (reference "#PWR038") (unit 1)
+          (reference "#PWR032") (unit 1)
         )
       )
     )
@@ -6009,7 +6009,7 @@
   (symbol (lib_id "Device:R") (at 137.16 78.74 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid ce3a5e6e-5047-4d72-95cd-fff1d1d9bb80)
-    (property "Reference" "R20" (at 138.43 76.2 0)
+    (property "Reference" "R19" (at 138.43 76.2 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "10k" (at 137.16 78.74 90)
@@ -6026,7 +6026,7 @@
     (instances
       (project "SaposenBoard"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-          (reference "R20") (unit 1)
+          (reference "R19") (unit 1)
         )
       )
     )
@@ -6086,7 +6086,7 @@
   (symbol (lib_id "Device:R") (at 119.38 63.5 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid d5ac6afa-fd8b-4e8c-95ce-d7675d117eac)
-    (property "Reference" "R16" (at 114.3 60.96 0)
+    (property "Reference" "R15" (at 114.3 60.96 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "10k" (at 119.38 63.5 90)
@@ -6103,7 +6103,7 @@
     (instances
       (project "SaposenBoard"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-          (reference "R16") (unit 1)
+          (reference "R15") (unit 1)
         )
       )
     )
@@ -6218,7 +6218,7 @@
   (symbol (lib_id "power:+BATT") (at 255.27 30.48 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid df6ecbda-00d7-4a50-a0c1-39d2670019b2)
-    (property "Reference" "#PWR0101" (at 255.27 34.29 0)
+    (property "Reference" "#PWR042" (at 255.27 34.29 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+BATT" (at 255.27 25.4 0)
@@ -6234,7 +6234,7 @@
     (instances
       (project "SaposenBoard"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-          (reference "#PWR0101") (unit 1)
+          (reference "#PWR042") (unit 1)
         )
       )
     )
@@ -6398,7 +6398,7 @@
   (symbol (lib_id "power:+3V3") (at 189.23 127 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid e53412c9-5850-4113-9951-b640a3bed98c)
-    (property "Reference" "#PWR036" (at 189.23 130.81 0)
+    (property "Reference" "#PWR035" (at 189.23 130.81 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+3V3" (at 189.23 121.92 0)
@@ -6414,7 +6414,7 @@
     (instances
       (project "SaposenBoard"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-          (reference "#PWR036") (unit 1)
+          (reference "#PWR035") (unit 1)
         )
       )
     )
@@ -6479,7 +6479,7 @@
   (symbol (lib_name "GND_1") (lib_id "power:GND") (at 63.5 140.97 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid e9d52152-4ec8-455f-8317-9b99ffdf27a1)
-    (property "Reference" "#PWR016" (at 63.5 147.32 0)
+    (property "Reference" "#PWR014" (at 63.5 147.32 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 63.5 146.05 0)
@@ -6495,7 +6495,7 @@
     (instances
       (project "SaposenBoard"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-          (reference "#PWR016") (unit 1)
+          (reference "#PWR014") (unit 1)
         )
       )
     )
@@ -6554,7 +6554,7 @@
   (symbol (lib_id "power:GND") (at 255.27 77.47 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid f38f9131-5d84-46c3-b4ff-d80951bdd433)
-    (property "Reference" "#PWR035" (at 255.27 83.82 0)
+    (property "Reference" "#PWR043" (at 255.27 83.82 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 255.27 82.55 0)
@@ -6570,7 +6570,7 @@
     (instances
       (project "SaposenBoard"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-          (reference "#PWR035") (unit 1)
+          (reference "#PWR043") (unit 1)
         )
       )
     )
@@ -6579,7 +6579,7 @@
   (symbol (lib_id "Device:R") (at 60.96 116.84 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid f706e56d-52ea-4a79-ad89-fae7128fce43)
-    (property "Reference" "R10" (at 57.15 113.03 0)
+    (property "Reference" "R11" (at 57.15 113.03 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "10k" (at 60.96 116.84 90)
@@ -6596,7 +6596,7 @@
     (instances
       (project "SaposenBoard"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-          (reference "R10") (unit 1)
+          (reference "R11") (unit 1)
         )
       )
     )
@@ -6605,7 +6605,7 @@
   (symbol (lib_id "Device:R") (at 252.73 114.3 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid fb84458c-c719-4d31-af9c-4972c8ba3f49)
-    (property "Reference" "R26" (at 248.92 110.49 0)
+    (property "Reference" "R25" (at 248.92 110.49 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "4.7k" (at 252.73 114.3 90)
@@ -6622,7 +6622,7 @@
     (instances
       (project "SaposenBoard"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-          (reference "R26") (unit 1)
+          (reference "R25") (unit 1)
         )
       )
     )
