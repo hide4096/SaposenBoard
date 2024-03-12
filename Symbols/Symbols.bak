@@ -283,7 +283,7 @@
       )
     )
   )
-  (symbol "NC7SZ18" (in_bom yes) (on_board yes)
+  (symbol "NC7SZ19" (in_bom yes) (on_board yes)
     (property "Reference" "U" (at -5.08 5.08 0)
       (effects (font (size 1.27 1.27)))
     )
@@ -296,7 +296,7 @@
     (property "Datasheet" "" (at 0 5.08 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (symbol "NC7SZ18_1_1"
+    (symbol "NC7SZ19_1_1"
       (rectangle (start -5.08 3.81) (end 5.08 -3.81)
         (stroke (width 0) (type default))
         (fill (type background))
